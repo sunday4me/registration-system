@@ -9,8 +9,61 @@
 </head>
 
 <body>
-  <h1> Register Now </h1>
-  Hello world
+  <h1> Register Now </h1>   
+    
+    <form action="#" method="post" id="signup" novalidate>
+        <div>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="name" name="l_name">
+        </div>
+      
+       <div>
+            <label for="first_name">First Name</label>
+            <input type="text" id="name" name="f_name">
+        </div>
+
+       <div>
+            <label for="phone">Phone Number</label>
+            <input type="num" id="name" name="P_number">
+        </div>
+        
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+      <div>
+            <label for="gender">Gender : </label>
+          <label for="female">Female</label>
+           <input type="radio" id="female" value="female"/>
+        <label for="female">Male</label>
+           <input type="radio" id="male" value="male"/>
+        </div>
+
+       <div>
+            <label for="dob">Date Of Birth :</label>
+            <input type="date" id="dob" name="Dob">
+        </div>
+
+       <div>
+            <label for="f_colour">Selector your Favorite color :</label>
+            <input type="color" id="f_color" name="f_color">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        
+        <div>
+            <label for="password_confirmation">Repeat password</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+        </div>
+        
+        <button>Sign up</button>
+    </form>
+    
+
   <script src="script.js"></script>
 
  <!--
